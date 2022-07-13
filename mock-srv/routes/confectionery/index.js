@@ -1,5 +1,7 @@
 'use strict'
 
+const { default: fastify } = require("fastify")
+
 const data = [
     {id: 'B1', name: 'Chocolate Bar', rrp: '22.40', info: 'Delicoious overpriced chocolate. '}
 ]
